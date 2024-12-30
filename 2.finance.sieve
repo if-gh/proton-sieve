@@ -56,7 +56,7 @@ elsif address :domain :matches "from" [
 }
 # Charity
 elsif address :domain :matches "from" [
-  "*goodwillsv.org",
+  "*goodwillsv.org"
 ] {
   fileinto "Finance/Charity";
   stop;
@@ -70,7 +70,7 @@ elsif address :domain :matches "from" [
   "*geicomail.com",
   "*getcoveredinsurance.com",
   "*guardianlife.com",
-  "*healthsafe-id.com"
+  "*healthsafe-id.com",
   "*jminsure.com",
   "*lemonade.com",
   "*nationwide.com",
